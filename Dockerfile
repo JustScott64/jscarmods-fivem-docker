@@ -1,7 +1,7 @@
 FROM justscott64/jscarmods-fivem
 LABEL maintainer="https://github.com/JustScott64/"
 
-#LABEL org.opencontainers.image.source="https://github.com/JustScott64/jscarmods-fivem-docker"
+LABEL org.opencontainers.image.source="https://github.com/JustScott64/jscarmods-fivem-docker"
 
 ENV download="recommended"
 

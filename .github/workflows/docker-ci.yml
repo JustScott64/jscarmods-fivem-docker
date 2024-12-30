@@ -28,4 +28,4 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ vars.DOCKER_USERNAME }}/jscarmods-fivem:latest  # Ensure this is the correct image name
           context: .  # Set the context to the current directory
-          file: ../Dockerfile  # Specify the path to your Dockerfile if it's not in the root
+          file: ./Dockerfile  # Specify the path to your Dockerfile if it's not in the root
