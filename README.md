@@ -16,7 +16,7 @@ How to install this Docker Container
 1. Install Docker on your Server. [[Here]](https://duckduckgo.com/?t=ffab&q=How+to+install+Docker+on+Ubuntu) you can find a guide.
 2. Run that command
 ```bash
-docker run -d -t --name CONAINER_NAME -p 40120:40120/tcp -p 30120:30120/tcp -p 30120:30120/udp -e download=VERSION -v VOLUME_NAME:/opt/fivem/txData ghcr.io/auhrus/fivem:latest
+docker run -d -t --name CONAINER_NAME -p 40120:40120/tcp -p 30120:30120/tcp -p 30120:30120/udp -e download=VERSION -v VOLUME_NAME:/opt/fivem/txData ghcr.io/JustScott64/fivem:latest
 ```
 Please replace all things written in CAPS.
 
