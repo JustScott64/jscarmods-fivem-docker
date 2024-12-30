@@ -1,4 +1,4 @@
-FROM jscarmods:latest
+FROM jscarmods-fivem-docker:latest
 
 LABEL maintainer="https://github.com/JustScott64/"
 LABEL org.opencontainers.image.source="https://github.com/JustScott64/jscarmods-fivem-docker"
