@@ -26,7 +26,7 @@ echo "***Starting FiveM Server"
 SCRIPT=$(readlink -f "$0")
 SCRIPTPATH=$(dirname "$SCRIPT")
 
-exec $SCRIPTPATH/jscarmods/opt/cfx-server/ld-musl-x86_64.so.1 \
---library-path "$SCRIPTPATH/jscarmods/usr/lib/v8/:$SCRIPTPATH/jscarmods/lib/:$SCRIPTPATH/jscarmods/usr/lib/" -- \
-$SCRIPTPATH/jscarmods/opt/cfx-server/FXServer +set citizen_dir $SCRIPTPATH/jscarmods/opt/cfx-server/citizen/ $*
+exec $SCRIPTPATH/alpine/opt/cfx-server/ld-musl-x86_64.so.1 \
+--library-path "$SCRIPTPATH/alpine/usr/lib/v8/:$SCRIPTPATH/alpine/lib/:$SCRIPTPATH/alpine/usr/lib/" -- \
+$SCRIPTPATH/alpine/opt/cfx-server/FXServer +set citizen_dir $SCRIPTPATH/alpine/opt/cfx-server/citizen/ $*
 exit
